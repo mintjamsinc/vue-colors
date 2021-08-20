@@ -3,7 +3,7 @@
 import Vue from 'vue';
 import Colors from './components/Colors.vue';
 
-const version = '1.0.0';
+const version = '1.1.0';
 
 const compatible = (/^2\./).test(Vue.version);
 if (!compatible) {

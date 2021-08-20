@@ -1,7 +1,7 @@
 <!-- Copyright (c) 2021 MintJams Inc. Licensed under MIT License. -->
 
 <template>
-	<div class="p-1 position-relative rounded d-flex flex-wrap bg-white">
+	<div class="p-1 position-relative rounded d-flex flex-wrap">
 		<div v-for="c in colors" :key="c.value" class="icon-block d-flex justify-content-center align-items-center">
 			<span class="color-icon flat-control rounded-circle shadow-sm c-pointer" :class="additionalClasses(c)" v-on:click="onClick(c)"></span>
 		</div>
