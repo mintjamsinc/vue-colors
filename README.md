@@ -1,7 +1,9 @@
-<img src="https://www.mintjams.jp/img/cr.svg" alt ="" width="64">
+<img src="https://www.mintjams.jp/img/cr.svg" alt="Content Repository 6" width="64">
 
 # vue-colors
 A reusable Colors component for Vue.js 2.x used by webtop applications.
+
+<img src="https://www.mintjams.jp/opensource/vue-colors/img/vue-coloes.png" alt="UI sample">
 
 ## Installation
 
