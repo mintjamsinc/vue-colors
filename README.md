@@ -3,7 +3,7 @@
 # vue-colors
 A reusable Colors component for Vue.js 2.x used by webtop applications.
 
-<img src="https://www.mintjams.jp/opensource/vue-colors/img/vue-coloes.png" alt="UI sample">
+<img src="https://www.mintjams.jp/opensource/vue-colors/img/vue-coloes.png?r=1" alt="UI sample">
 
 ## Installation
 
