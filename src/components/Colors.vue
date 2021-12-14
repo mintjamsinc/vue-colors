@@ -110,8 +110,11 @@ export default {
 		}
 	},
 	watch: {
-		'selectedColors': function() {
+		'selectedColors': function(value, oldValue) {
 			let vm = this;
+			if (Objects.equals(value, oldValue)) {
+				return;
+			}
 			vm.ui.$onChanged();
 		},
 	},
