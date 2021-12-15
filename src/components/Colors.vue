@@ -23,6 +23,7 @@ export default {
 		return {
 			'colors': [],
 			'selectedColors': [],
+			'oldSelectedColors': null,
 			'ui': null,
 		};
 	},
@@ -110,12 +111,15 @@ export default {
 		}
 	},
 	watch: {
-		'selectedColors': function(value, oldValue) {
+		'selectedColors': function(value) {
 			let vm = this;
-			if (Objects.equals(value, oldValue)) {
-				return;
+			if (vm.oldSelectedColors != null) {
+				if (Objects.equals(value, vm.oldSelectedColors)) {
+					return;
+				}
 			}
 			vm.ui.$onChanged();
+			vm.oldSelectedColors = Objects.clone(value);
 		},
 	},
 }
